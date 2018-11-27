@@ -11,5 +11,14 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-.env
 .phpunit.result.cache
+.env.*.php
+.env.php
+.env
+
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
+
+composer.lock
+app/Libraries/enbank/ipg/enpayment.conf.php
